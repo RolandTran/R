@@ -1,0 +1,6 @@
+# Create a character vector to store the variable information
+variable_info <- character()
+why do we need this?
+The line variable_info <- character() creates an empty character vector named variable_info. We need this vector to store the names of variables with missing values and their corresponding counts in a specific format.
+Inside the for loop, we use the append() function to add elements to the variable_info vector. In each iteration, we concatenate the variable name, the count of missing values for that variable, and the parentheses using paste0(). This creates a string in the format "VariableName (Count)".
+If we didn't initialize the variable_info vector before the loop, we would encounter an error because we can't append elements to a non-existent vector. Hence, we create an empty vector beforehand to store the variable information generated in each iteration.
