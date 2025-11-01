@@ -1,0 +1,1 @@
+This folder contains all the file to the hw on this url: https://ocw.mit.edu/courses/15-071-the-analytics-edge-spring-2017/pages/an-introduction-to-analytics/assignment-1/demographics-and-employment-in-the-united-states/
