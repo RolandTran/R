@@ -1,0 +1,3 @@
+To read csv file, must use stringsAsFactors = FALSE
+ You may not want the character columns in your CSV file to be converted into factors, set stringsAsFactors = FALSE to prevent this conversion.
+ working with text data that is not categorical (i.e., where the values should be treated as characters rather than levels in a factor variable), you would want to set stringsAsFactors = FALSE to prevent R from automatically converting the text into factors. This can also be useful when working with large datasets, as converting columns to factors can use up a lot of memory..
